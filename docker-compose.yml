@@ -1,0 +1,40 @@
+version: '3.3'
+
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - app-net
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - app-net 
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - 3000:3000
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=gottilla
+    depends_on:
+      - prometheus
+    volumes:
+      - ./grafana:/etc/grafana/provisioning/datasource
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    external:
+      name: nat
