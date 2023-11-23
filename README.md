@@ -11,5 +11,5 @@ Promotheus Assignment
 
 5. Create the Dashboards in Grafana on top of the metrics exported by adding the Prometheus as a Datasource.
 
-Command to run
+Command to run<br>
 `docker-compose up --build`
