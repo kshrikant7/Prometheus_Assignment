@@ -1,4 +1,4 @@
-Promotheus Assignment
+# Promotheus Assignment
 ---------------
 
 1. Export the metrics (like request per second, memory usage, cpu usage etc) in the existing mini project given to Interns
@@ -12,4 +12,4 @@ Promotheus Assignment
 5. Create the Dashboards in Grafana on top of the metrics exported by adding the Prometheus as a Datasource.
 
 Command to run<br>
-`docker-compose up --build`
+`$docker-compose up --build`
