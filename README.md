@@ -62,14 +62,20 @@ Click "Apply" to see the visualization on the dashboard.
 
 # Screenshots
 
-<ul><li>Prometheus Targets Page: Overview of Monitored Targets</li></ul>
+<b><ul><li>Prometheus Targets Page: Overview of Monitored Targets</li></ul></b>
+
 ![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/5f170ac6-77d0-4e69-8b7b-60862ff9b7b8)
 
-<br><br>
-<ul><li>Dashboard in Grafana: Visualizing Flask Application Metrics</li></ul>
-<ol><li>flask_cpu_usage_percentage</li>
+<br>
+<b><ul><li>Dashboard in Grafana: Visualizing Flask Application Metrics</li></ul></b>
+1. flask_cpu_usage_percentage
+<br>
+  
 ![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/2f8d168e-3b20-4825-9447-06e4c2311af1)
 
-<li>process_cpu_seconds_total</li></ol>
+<br>
+2. process_cpu_seconds_total
+<br>
+
 ![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/6d94f2e5-6ab1-4604-babf-df803b5b5958)
 
