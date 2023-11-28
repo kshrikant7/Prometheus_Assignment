@@ -26,20 +26,23 @@ Create a Flask application with metrics instrumentation. Create app.py file and 
 <h3><b>Step 2: Create Docker Compose File</b></h3>
 Create a docker-compose.yml file in the project directory. Pull the images of Prometheus and Grafana from DockerHub.
 
-<h3><b>Step 3: Create Prometheus Configuration</b></h3
+<h3><b>Step 3: Create Requirement File</b></h3>
+Create a requirement.txt file and add all the python packages name required to run the python script.
+
+<h3><b>Step 4: Create Prometheus Configuration</b></h3
 Create a prometheus.yml file in the project directory
 
-<h3><b>Step 4: Build and Run the Containers</b></h3>
+<h3><b>Step 5: Build and Run the Containers</b></h3>
 Run the following command to build and start the Docker containers:<br><br>
 
 
 `$docker-compose up --build`
 
 
-<h3><b>Step 5: Access Prometheus UI</b></h3>
+<h3><b>Step 6: Access Prometheus UI</b></h3>
 Open your browser and navigate to http://localhost:9090 to access the Prometheus UI. Verify that metrics are being scraped from the Flask application. Check the "Targets" page to ensure that your application is successfully scraping metrics.
 
-<h3><b>Step 6: Access Grafana UI</b></h3>
+<h3><b>Step 7: Access Grafana UI</b></h3>
 Access Grafana UI at http://localhost:3000 (login with admin/admin). Add Prometheus as a data source:
 
 <ul><li>Go to "Configuration" > "Data Sources" > "Add your first data source".</li>
@@ -49,7 +52,7 @@ Access Grafana UI at http://localhost:3000 (login with admin/admin). Add Prometh
 <ul><li>Go to "Create" > "Dashboard".</li>
 <li>Add a new panel, choose Prometheus as the data source, and use queries to visualize your metrics.</li></ul>
 
-<h3><b>Step 7: Select and Run Queries</b></h3>
+<h3><b>Step 8: Select and Run Queries</b></h3>
 <b><ul><li>Query for Total Requests</li></ul></b>
 <ol><li>Under the "Metric" field, start typing 'flask_requests_total'.</li>
 <li>Grafana will provide suggestions; select 'flask_requests_total'.</li></ol>
