@@ -24,7 +24,7 @@ This guide will walk you through the process of exporting metrics from a Flask a
 Create a Flask application with metrics instrumentation. Create app.py file and add the python code into that file
 
 <h3><b>Step 2: Create Docker Compose File</b></h3>
-Create a docker-compose.yml file in the project directory.
+Create a docker-compose.yml file in the project directory. Pull the images of Prometheus and Grafana from DockerHub.
 
 <h3><b>Step 3: Create Prometheus Configuration</b></h3
 Create a prometheus.yml file in the project directory
