@@ -29,7 +29,7 @@ Create a docker-compose.yml file in the project directory. Pull the images of Pr
 <h3><b>Step 3: Create Requirement File</b></h3>
 Create a requirement.txt file and add all the python packages name required to run the python script.
 
-<h3><b>Step 4: Create Prometheus Configuration</b></h3
+<h3><b>Step 4: Create Prometheus Configuration</b></h3>
 Create a prometheus.yml file in the project directory
 
 <h3><b>Step 5: Build and Run the Containers</b></h3>
