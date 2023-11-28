@@ -69,13 +69,15 @@ Click "Apply" to see the visualization on the dashboard.
 <br>
 <b><ul><li>Dashboard in Grafana: Visualizing Flask Application Metrics</li></ul></b>
 1. flask_cpu_usage_percentage
-<br>
-  
-![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/2f8d168e-3b20-4825-9447-06e4c2311af1)
+
+<br>![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/2f8d168e-3b20-4825-9447-06e4c2311af1)
 
 <br>
 2. process_cpu_seconds_total
-<br>
 
-![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/6d94f2e5-6ab1-4604-babf-df803b5b5958)
+<br>![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/6d94f2e5-6ab1-4604-babf-df803b5b5958)
+
+<b><ul><li>Metrics</li></ul>
+![image](https://github.com/kshrikant7/Prometheus_Assignment/assets/65910406/5b53553f-4f0c-4011-965b-70ff5a141bd2)
+
 
